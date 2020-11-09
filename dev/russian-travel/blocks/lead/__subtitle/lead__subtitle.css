@@ -1,0 +1,18 @@
+.lead__subtitle {
+    text-rendering: optimizeLegibility;
+    margin: 32px auto 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+  
+    @media (max-width: 767px) {
+      .cover__subtitle {
+        font-size: 16px;
+        margin-top: 16px;
+        max-width: 288px;
+        line-height: 1.25;
+      }
+    }
