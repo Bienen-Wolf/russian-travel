@@ -5,30 +5,30 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    position: relative;     
-    margin: 0; 
+    align-items: center;
+    position: relative;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 } 
 
 .cover__background::before { 
-    content: ''; 
-    position: absolute; 
-    left: 0; 
-    top: 0; 
-    right: 0; 
-    bottom: 0; 
-    background: #2A2C2F; 
-    opacity: 0.3; 
-    transition: 0.8s linear; 
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: 0.8s linear;
 } 
        
 .cover__background:hover::before {
-      opacity: 0.7; 
+      opacity: 0.7;
 }
 
 @media screen and (max-width:1024px){
