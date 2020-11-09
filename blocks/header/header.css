@@ -1,6 +1,6 @@
-@import url(/blocks/header/__lang/header__lang.css);
-@import url(/blocks/header/__lang/header__lang-list.css);
-@import url(/blocks/header/__lang/__link/lang__link.css);
+@import url(./__lang/__link/lang__link.css);
+@import url(./__lang/header__lang-list.css);
+@import url(./__lang/header__lang.css);
 
 
 .header {
