@@ -1,6 +1,7 @@
 # Проект 3: Путешествие по России
 
 Использованные технологии:
+
 -Grid
 
 -Макет из Figma
@@ -11,7 +12,9 @@
 
 -Метатеги и медиазапросы
 
-Ссылка на проект:https://bienen-wolf.github.io/russian-travel/
+Ссылка на проект:
+
+https://bienen-wolf.github.io/russian-travel/
 
 
 
