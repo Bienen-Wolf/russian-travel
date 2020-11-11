@@ -7,8 +7,6 @@
   line-height: 20px;
   text-align: right;
   color: #FFFFFF;
-  margin: 0px 0px 0px 238px;
-
 }
 
 
@@ -20,13 +18,27 @@
   
 @media screen and (min-width: 1024px) {
   .footer__copyright {
-      margin: 0 40px 0 0;
+    margin: 0 40px 0 0;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
-      line-height: 114%;
-      margin: 0 24px 0 0;
+    line-height: 114%;
+    margin: 0 24px 0 0;
+    text-align: left;
   }
 }
+
+@media screen and (min-width: 750px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+@media (max-width: 686px) {
+  .footer__copyright {
+    line-height: calc(14 / 14);
+    text-align: left;
+    }
+  }
