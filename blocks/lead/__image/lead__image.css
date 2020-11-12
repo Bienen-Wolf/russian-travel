@@ -3,17 +3,17 @@
   box-sizing: border-box;
   width: 100%;
   margin: 64px auto 0;
-  }
+}
   
-  @media (max-width: 1280px) {
-    .cover__img {
-      margin: 56px 0 0;
-    }
+@media (max-width: 1280px) {
+  .cover__img {
+    margin: 56px 0 0;
   }
+}
   
-  @media (max-width: 768px) {
-    .cover__img {
-      margin: 40px 0 0;
-      width: 100%;
-    }
+@media (max-width: 768px) {
+  .cover__img {
+    margin: 40px 0 0;
+    width: 100%;
   }
+}
