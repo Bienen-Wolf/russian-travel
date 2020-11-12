@@ -3,8 +3,6 @@
 @import url(__subtitle/lead__subtitle.css);
 @import url(__title/lead__title.css);
 
-
-
 .lead {
     margin: 0 auto;
     max-width: calc(100% - 296px);
@@ -16,17 +14,18 @@
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: calc(100% - 2 * 48px);
-        }
     }
+}
 
 @media screen and (max-width: 768px) {
     .lead {
-         max-width: 100%;
-        }
+        max-width: 100%;
     }
+}
 
 @media screen and (max-width: 425px) {
     .lead {
         max-width: 100%;
-        }
     }
+}
+
