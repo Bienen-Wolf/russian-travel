@@ -6,16 +6,16 @@
     max-width: 690px;
     margin: 40px auto 33px 0;
     color: #ffffff;
-  }
-  
-  @media (max-width: 1023px) {
+}
+
+@media (max-width: 1023px) {
     .intro__text {
-      max-width: unset;
+        max-width: unset;
     }
-  }
-  
-  @media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
     .intro__text {
-      margin-bottom: 34px;
+        margin-bottom: 34px;
     }
-  }
+}
