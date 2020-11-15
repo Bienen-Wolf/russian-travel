@@ -2,12 +2,12 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 660px) {
-  .footer__list-item {
-    margin-right: 0;
-    margin-bottom: 32px;
-  }
-
+@media screen and (max-width: 767px){
+.footer__list-item {
+    flex-direction: column;
+    margin-bottom: 48px;
+    justify-content: space-evenly;
+}
   .footer__list-item:last-child {
     margin-bottom: 0px;
   }
