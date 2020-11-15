@@ -17,7 +17,7 @@
         "title url-heading"
         "image paragraph";
 }
-        @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .place {
         grid-template-columns: minmax(460px, 1fr) minmax(484px, 1fr);
         column-gap: 40px;
@@ -45,6 +45,7 @@
 
 @media (max-width: 690px) {
     .place {
-      display: block;
+        display: block;
     }
-  }
+}
+
