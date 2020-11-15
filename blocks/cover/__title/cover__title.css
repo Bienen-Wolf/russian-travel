@@ -9,10 +9,17 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 620px){
-    .cover__title {
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-    }
+@media screen and (max-width: 1023px) {
+  .cover__title {
+    margin: 115px auto 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 240px;
+    margin: 33px auto 0;
+  }
 }
