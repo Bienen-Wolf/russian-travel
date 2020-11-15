@@ -13,7 +13,6 @@
     }
 }
 
-
 @media screen and (max-width: 640px) {
     .place__title {
         margin-right: 16px;
@@ -22,3 +21,10 @@
         line-height: 35px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        margin-bottom: 32px;
+    }
+}
+
