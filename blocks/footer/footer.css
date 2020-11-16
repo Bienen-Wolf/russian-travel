@@ -26,11 +26,6 @@
 @media screen and (max-width: 620px) {
     .footer {
         padding-top: 0;
-        margin: 64px auto 24px 16px;
-        max-width: 186px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
 
